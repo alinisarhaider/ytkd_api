@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     py_modules=["ytkd_api"],
     package_dir={'': 'src'},
-    url="https://github.com/",
+    url="https://github.com/alinisarhaider/ytkd_api",
     # packages=setuptools.find_packages(),
     install_requires=['requests'],
     classifiers=[
