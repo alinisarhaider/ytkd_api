@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ytkd_api",
-    version="0.0.2",
+    version="0.0.3",
     author="Ali Haider",
     author_email="alinisarhaider@gmail.com",
     description="A Python wrapper for YouTube Key word detection API. ",
@@ -14,7 +14,6 @@ setuptools.setup(
     py_modules=["ytkd_api"],
     package_dir={'': 'src'},
     url="https://github.com/alinisarhaider/ytkd_api",
-    # packages=setuptools.find_packages(),
     install_requires=['requests'],
     classifiers=[
         "Programming Language :: Python :: 3",
