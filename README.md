@@ -1,7 +1,7 @@
 # YTKD
 
 ### ytkd-api is sponsored by:	
-<a href="https://www.developingnow.com/"><img src="developingco_logo.png"/></a>
+<a href="https://www.developingnow.com/" target="_blank"><img src="developingco_logo.png"/></a>
 
 ## Description
 A YouTube key word detection API that takes in video URL and key words and outputs each key word along with its time of occurrence in the video.
