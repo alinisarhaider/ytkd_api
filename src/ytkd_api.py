@@ -7,8 +7,7 @@ class YTKD:
     def __init__(self, url, keywords):
         self.url = url
         self.keywords = keywords
-        # self.API_ENDPOINT = "http://ytkd-env.eba-jcpqnkgc.ap-south-1.elasticbeanstalk.com/api"
-        self.API_ENDPOINT = 'http://127.0.0.1:5000/api'
+        self.API_ENDPOINT = "http://ytkd-env.eba-jcpqnkgc.ap-south-1.elasticbeanstalk.com/api"
         super().__init__()
 
     def make_request(self, get_expected_time_only):
